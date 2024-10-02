@@ -4,24 +4,25 @@
 <title>Page Title</title>
 </head>
 <body>
+<form>
 Imie I Nazwisko:
 <br>
-<input type="text" name="Imie i Nazwisko" placeholder="Wpisz Imie">
+<input type="text" name="Imie i Nazwisko" placeholder="Wpisz Imie" id="Imie">
 <br>
 <br>
 E-mail:
 <br>
-<input type="email" placeholder="Wpisz e-mail">
+<input type="email" placeholder="Wpisz e-mail" id="e-mail">
 <br>
 <br>
 Numer telefonu:
 <br>
-<input type="phone number" placeholder="Wpisz numer">
+<input type="phone number" placeholder="Wpisz numer" id="e-mail">
 <br>
 <br>
 Haslo:
 <br>
-  <input type="password" id="password" name="password" placeholder="Wpisz haslo">
+  <input type="password" id="haslo" name="password" placeholder="Wpisz haslo">
 <br>
 <br>
  <input type="checkbox" id="zgoda" name="zgoda" value="zgoda">
@@ -279,7 +280,6 @@ Kraj:
 </datalist>
 <br>
 <br>
-<form>
 <button type="button" onclick="alert('Formuła została wysłana')">Wysłać</button>
   <input type="reset" value="Reset">
   </form>
