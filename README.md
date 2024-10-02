@@ -12,7 +12,7 @@ Imie I Nazwisko:
 <br>
 E-mail:
 <br>
-<input type="email" placeholder="Wpisz e-mail" id="e-mail">
+<input type="email" placeholder="Wpisz e-mail" id="email">
 <br>
 <br>
 Numer telefonu:
@@ -25,15 +25,12 @@ Haslo:
   <input type="password" id="haslo" name="password" placeholder="Wpisz haslo">
 <br>
 <br>
- <input type="checkbox" id="zgoda" name="zgoda" value="zgoda">
-  <label for="vehicle1">Zgoda na warunki</label><br>
-<br>
 Wybor plci
 <br>
 <input type="radio" id="male" name="gender" value="Male">
-  <label for="html">Mężczyzna</label>
+  <label for="kobitea">Mężczyzna</label>
   <input type="radio" id="male" name="gender" value="Female">
-  <label for="css">Kobieta</label><br>
+  <label for="kobieta">Kobieta</label><br>
 <br>
 Kraj:
 <input list="Kraj">
@@ -280,8 +277,11 @@ Kraj:
 </datalist>
 <br>
 <br>
-<button type="button" onclick="alert('Formuła została wysłana')">Wysłać</button>
-  <input type="reset" value="Reset">
+ <input type="checkbox" id="zgoda" name="zgoda" value="zgoda">
+  <label for="Zgpda">Zgoda na warunki</label><br>
+<br>
+<button id="wyslac" type="button" onclick="alert('Formuła została wysłana')">Wysłać</button>
+  <input id="reset" type="reset" value="Reset">
   </form>
 </body>
 </html>
